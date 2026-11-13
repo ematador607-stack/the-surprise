@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>the surprise</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo">✦</span>
+        <span class="brand-name">the surprise</span>
+      </div>
+      <div class="batch-pill" id="batchPill">Batch 1 / 18</div>
+    </header>
+
+    <div class="progress-wrap">
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      <div class="progress-label" id="progressLabel">0 / 20 answered</div>
+    </div>
+
+    <main id="quizArea" class="quiz-area"></main>
+
+    <nav class="nav">
+      <button class="nav-btn" id="prevBtn">← Previous</button>
+      <button class="nav-btn" id="nextBtn">Next →</button>
+    </nav>
+
+    <footer class="footer">
+      <button class="link-btn" id="resetBtn">Reset all progress</button>
+      <button class="link-btn" id="historyBtn">Score history</button>
+    </footer>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="modal-card">
+      <h2 id="modalTitle"></h2>
+      <div id="modalBody"></div>
+      <button class="nav-btn" id="modalClose">Close</button>
+    </div>
+  </div>
+
+  <!-- Batches — add new ones here as they arrive -->
+  <script src="data/batch-01.js"></script>
+  <script src="data/batch-02.js"></script>
+  <script src="data/batch-03.js"></script>
+  <script src="data/batch-04.js"></script>
+  <script src="data/batch-05.js"></script>
+  <script src="data/batch-06.js"></script>
+  <script src="data/batch-07.js"></script>
+  <script src="data/batch-08.js"></script>
+  <script src="data/batch-09.js"></script>
+  <script src="data/batch-10.js"></script>
+  <script src="data/batch-11.js"></script>
+  <script src="data/batch-12.js"></script>
+  <script src="data/batch-13.js"></script>
+  <script src="data/batch-14.js"></script>
+  <script src="data/batch-15.js"></script>
+  <script src="data/batch-16.js"></script>
+  <script src="data/batch-17.js"></script>
+  <script src="data/batch-18.js"></script>
+
+  <script src="app.js"></script>
+</body>
+</html>
